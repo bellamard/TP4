@@ -1,0 +1,145 @@
+body{
+    width:60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #93c4ea;    
+}
+form{
+    
+    background: #ffffff;
+    display: flex;  
+    justify-self: center;  
+    border-radius: 1%;
+    overflow:hidden;
+}
+
+#gen{
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(53, 52, 52);
+    padding: 5%;
+    width: 50%;
+
+}
+#gen h1{
+    color: #93c4ea;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form .element{
+    
+    border: none;
+    background: none;
+    
+    
+}
+form .elementW{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    
+    
+}
+form #gen .element{
+    
+    border-bottom: 1px solid black;
+    
+    
+}
+form #gen .elementW{
+    
+    border-bottom: 1px solid black;
+    
+}
+
+#cont{
+    display: inline-block;
+    background-color: #345dd2;
+    padding: 5%;
+    width: 50%;
+}
+form #cont .element{
+   border-bottom: 1px solid rgb(173, 178, 252);
+   color: #e6e5fe;
+}
+form #cont .elementW{
+   border-bottom: 1px solid rgb(173, 178, 252);
+   color: #e6e5fe;
+}
+
+#cont h2{
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eligne{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#validation{
+    color: black;
+    padding: 3%;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    line-height: normal;
+    box-shadow: 0px 4px 4px #1c1a19;
+}
+
+#nom{
+    width: 48%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+#prenom{
+    width: 48%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+
+label{
+    color: white;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}
+
+#cont input::placeholder{
+    color:white;
+}
+
+#gen input::placeholder{
+    color:black;
+}
+input:focus{
+    outline: none;
+}
+input{
+    line-height: 2.5em;
+}
+#code{
+    width: 20%;
+}
+#phone{
+    width: 75%;
+}
+#Zip{
+    width: 20%;
+}
+#place{
+    width: 75%;
+}
+select:focus{
+    outline: none;
+}
+select option{
+    background: none;
+    color: black;
+}
