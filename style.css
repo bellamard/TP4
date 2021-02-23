@@ -2,21 +2,31 @@
     font-family:'round';
     src: url(fond/Air\ Factory\ Rounded.ttf)
 }
+*{
+  margin:0;
+  padding:0;
+}
 body{
-    width:70%;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: #93c4ea;    
+    position:relative;   
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,#93c4ea, #93a5e0) ;    
 }
 form{
-    line-height: 2em;
+    width: 80vw;
+    height:90vh;
+    margin:0 auto;
+    position:relative;
+    top:50vh;
+    transform:translateY(-50%);     
     background: #ffffff;
     display: flex;  
     justify-self: center;  
-    border-radius: 1%;
+    border-radius: 2%;
     overflow:hidden;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 1px 1px 5px black;
+    
 }
 
 #gen{
@@ -30,33 +40,31 @@ form{
 #gen h1{
     color: #93c4ea;
     font-size: 1.2em;
-    
+    padding-bottom: 5%;
 }
 form .element{
-    
     border: none;
     background: none;
-    
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 form .elementW{
     width: 100%;
     height: 100%;
     border: none;
     background: none;
-    
-    
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 form #gen .element{
-    
     border-bottom: 1px solid #767676;
     color: #767676;
+    
     
 }
-form #gen .elementW{
-    
+form #gen .elementW{ 
     border-bottom: 1px solid #767676;
     color: #767676;
-    
 }
 
 #cont{
@@ -65,29 +73,35 @@ form #gen .elementW{
     padding: 5%;
     width: 50%;
 }
-form #cont .element{
+form #cont .element{    
    border-bottom: 1px solid #dfe0fe;
    color: #dfe0fe;
+   padding-bottom: 3%;
 }
 form #cont .elementW{
+    
    border-bottom: 1px solid #dfe0fe;
    color: #dfe0fe;
+   padding-bottom: 3%;
 }
 
 #cont h2{
     color: white;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5%;
 }
 .eligne{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 5%;
 }
 
 #validation{
     color: black;
     padding: 3%;
+    margin: 3%;
     border-radius: 20px;
     border: none;
     background-color: white;
@@ -100,16 +114,19 @@ form #cont .elementW{
     border: none;
     background: none;
     border-bottom: 1px solid #767676;
+    padding-bottom: 3%;
 }
 #prenom{
     width: 48%;
     border: none;
     background: none;
     border-bottom: 1px solid #767676;
+    padding-bottom: 3%;  
 }
 
 label{
     color: white;
+     
 }
 a{
     color: white;
@@ -129,15 +146,33 @@ input:focus{
 
 #code{
     width: 20%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #dfe0fe;
+    padding-bottom: 3%; 
 }
 #phone{
     width: 75%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #dfe0fe;
+    padding-bottom: 3%; 
 }
 #Zip{
     width: 20%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #dfe0fe;
+    padding-bottom: 3%;  
+     
 }
 #place{
     width: 75%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #dfe0fe;
+    padding-bottom: 3%;  
+     
 }
 select:focus{
     outline: none;
@@ -146,9 +181,39 @@ select option{
     background: none;
     color: black;
 }
-#employees{
-    width:25%
+#Employees{
+    width:25%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #767676;
+    padding-bottom: 3%;
+    color:#767676;
 }
 #Business{
-    width:70%
+    width:70%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #767676;
+    padding-bottom: 3%;
+}
+#accept{
+     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 7px;
+
+}
+#accept:checked{
+    border: 2px solid #345dd2;
+    box-shadow: 0 0 0 0.1em #ffffff;
+    padding: 6px;
+    background-color:#ffffff
+}
+.radi{
+   
+    width: 80%;
+    padding: 5% 0%;
 }
