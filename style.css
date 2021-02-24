@@ -222,6 +222,7 @@ select option{
 label{
           
         margin-left: 3%;
-        width: 60%;
-        
+        width: 80%;
+        display: inline-block;
+        vertical-align: top;
 }
