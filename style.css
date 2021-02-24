@@ -40,7 +40,7 @@ form{
 #gen h1{
     color: #93c4ea;
     font-size: 1.2em;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 form .element{
     border: none;
@@ -89,7 +89,7 @@ form #cont .elementW{
     color: white;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 .eligne{
     display: flex;
@@ -214,5 +214,14 @@ select option{
 }
 .radi{
     width: 80%;
-    padding: 5% 0%;
+    padding: 4% 0%;
+}
+#accept, label{
+    vertical-align: middle;    
+}
+label{
+          
+        margin-left: 3%;
+        width: 60%;
+        
 }
